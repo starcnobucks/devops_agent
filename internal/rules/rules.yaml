@@ -1,0 +1,4 @@
+rules:
+  - name: restart_docker
+    condition: docker == "down"
+    action: restart_docker

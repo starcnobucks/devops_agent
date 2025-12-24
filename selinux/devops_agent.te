@@ -1,0 +1,9 @@
+module devops_agent 1.0;
+
+require {
+    type docker_t;
+    type init_t;
+    class system restart;
+}
+
+allow init_t docker_t:system restart;

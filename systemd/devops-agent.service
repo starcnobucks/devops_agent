@@ -1,0 +1,10 @@
+[Unit]
+Description=DevOps Agent
+After=docker.service
+
+[Service]
+ExecStart=/usr/bin/devops-agent
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
