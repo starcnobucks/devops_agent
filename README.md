@@ -6,11 +6,6 @@
 
 DevOps Agent is a lightweight, extensible agent for running automation, collectors, and orchestration tasks on remote servers. The core is implemented in Go for performance and portability, with Python used for plugins and helper scripts and Shell for small operational utilities.
 
-Animated demo
-------------
-<p align="center">
-  <img src="https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif" alt="devops_agent demo" width="800" />
-</p>
 
 Language composition
 --------------------
